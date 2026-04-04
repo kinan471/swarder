@@ -1,14 +1,35 @@
-node_modules
-dist
-.env
-.env.local
-.DS_Store
+# Logs
+logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.vscode
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
 .idea
-supabase/.branches
-supabase/.temp
-public/supabase
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Supabase
+.supabase
+*/node_modules
+dist
+build
